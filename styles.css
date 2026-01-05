@@ -2,6 +2,38 @@ body{
     max-width: 1270px;
     margin: 0 auto;
 }
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+}
+nav{
+    display: flex;
+    gap:50px;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    gap:50px;
+    font-weight: 600;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: black;
+    background-color:rgb(252, 252, 246);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.25s linear;
+}
+nav div{
+    margin: 5px;
+}
 .card-container{
     display: flex;
     gap:10px;
