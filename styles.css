@@ -2,7 +2,11 @@ body{
     max-width: 1270px;
     margin: 0 auto;
 }
-
+.card-container{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
 .card{
     /* border: 1px solid black; */
     height: 400px;
@@ -13,6 +17,13 @@ body{
     align-items: center;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(36, 35, 35);
+    background-color: antiquewhite;
+}
+.card:hover{
+    background-color: rgb(252, 252, 246);
+    height: 410px;
+    width: 310px;
+    transition: all 0.5s ease-out;
 }
 img{
     width: 280px;
@@ -20,12 +31,16 @@ img{
     border-radius:3px;
     /* box-shadow: 5px 5px 10px rgb(139, 136, 136); */
 }
+.card p{
+    margin-left: 10px;
+}
 button{
-    padding: 8px;
+  padding: 8px;
   align-self: flex-start;
   font-weight: 700;
   background-color: lightseagreen;
   border-radius: 5px;
   border: none;
   margin:0px 0px 20px 10px;
+  cursor: pointer;
 }
